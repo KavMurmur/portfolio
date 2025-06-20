@@ -5,6 +5,12 @@ body {
   background: #fafafa;
   color: #333;
 }
+#welcome-logo {
+  display: block;
+  margin: 100px auto;
+  max-width: 300px;
+  width: 80%;
+}
 .logo-container {
   display: flex;
   height: 100vh;

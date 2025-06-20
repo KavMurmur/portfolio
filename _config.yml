@@ -1,0 +1,27 @@
+# Site settings
+title: "Lux Gagos – Portfolio"
+description: "Lux Gagos Photography"
+url: "https://KavMurmur.github.io"  # Your GitHub Pages URL (without trailing slash)
+baseurl: "/LuxPortfolio"             # Add only if it's not your user/organization site
+
+# Build settings
+markdown: kramdown
+theme: minima                          # Jekyll theme (optional, or custom if you're styling it yourself)
+
+# Optional for better defaults
+permalink: /:categories/:title.html   # Clean URLs
+collections:
+  posts:
+    output: true
+
+# Exclude folders or files from build
+exclude:
+  - README.md
+  - .obsidian/
+  - .gitignore
+
+# Optional plugins (if you ever need more features)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+

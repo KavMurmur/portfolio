@@ -1,0 +1,44 @@
+<!-- assets/css/style.css -->
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+}
+.logo-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 300px;
+}
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+.gallery-grid a {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  padding: 0.75rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
